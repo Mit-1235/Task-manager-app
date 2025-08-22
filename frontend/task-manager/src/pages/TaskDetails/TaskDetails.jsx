@@ -1,6 +1,7 @@
 
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+// import axios from "axios";
+import axios from "../../utils/axiosInstance";
 import { useNavigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import moment from "moment";
